@@ -17,8 +17,11 @@ Copyright @ 2009 All Rights Reservered.
   {if $logged_in}
   <div id="left">
     <ul class="menutabs">
-      <li class="home"><a href="index.php">Home</a></li>
-      <li class="servers"><a href="server.php">My Servers</a></li>
+      <li class="home"><a href="index.php">Pocetna</a></li>
+      <li class="servers"><a href="server.php">Svi Serveri</a></li>
+      <li class="naruci"><a href="naruci.php">Naruci</a></li>
+      <li class="gt"><a href="http://onet.pro/gt">GT-ONET</a></li>
+      <li class="fdl"><a href="fdl-info.php">FDL</a></li>
     </ul>
   </div>
   <div id="right">
