@@ -28,19 +28,19 @@ output "# Auto SwiftPanel Installer Script LOADED"
 
 sleep 2
 
-output "# Created by: Enis 'nisyy.' Cakaj"
+output "WWW.ONET.PRO"
 
 sleep 2
 
-output "# Project: https://github.com/enisc-al/Auto-SwiftPanel-Installer-Script"
+output "# Project: https://github.com/BlackQuard/Auto-SwiftPanel-Installer-Script"
 
 sleep 2
 
-output "# Facebook: https://www.facebook.com/killeri.amxx"
+output "# Facebook: https://www.github.com/BlackQuard"
 
 sleep 2
 
-output "# Youtube: https://www.youtube.com/c/enisigaming/"
+output "# Youtube: https://www.youtube.com/c/"
 
 sleep 1
 
@@ -50,7 +50,7 @@ sleep 1
 
 clear
 
-output 	"<----- Starting Installation ----->"
+output 	"<----- Starting Installation CentOS 6/7----->"
 
 sleep 2
 
@@ -260,8 +260,8 @@ rm -rf Auto-SwiftPanel-Installer-Script
 }
 
 output1 "Do you want to start Auto SwiftPanel installer?"
-output "[1] Yes."
-output "[2] No."
+output "[1] Premni."
+output "[2] Odjebi."
 read icmp
 case $icmp in
         1) RunScript
