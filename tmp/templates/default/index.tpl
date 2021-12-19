@@ -1,6 +1,6 @@
 <table width="100%" border="0" cellpadding="0" cellspacing="0" class="title">
   <tr>
-    <td align="left"><h1>Home</h1></td>
+    <td align="left"><h1>Pocetna</h1></td>
   </tr>
 </table>
 {if $e_msg1}<div id="infobox"><strong>{$e_msg1}</strong><br />{$e_msg2}</div>{/if}
@@ -19,7 +19,7 @@
       </table></td>
   </tr>
 </table>
-<p><strong>My Servers</strong></p>
+<p><strong>Svi Serveri</strong></p>
 <table width="95%" align="center" cellpadding="1" cellspacing="1" class="data">
   <tr>
   	<th width="40"></th>
@@ -27,6 +27,7 @@
     <th>Game</th>
     <th>IP Address</th>
     <th>Status</th>
+    <th>GT-Info</th>
     <th width="30"></th>
   </tr>
   {foreach from=$servers item=srv}
@@ -44,6 +45,8 @@
     {/if}
     {if $srv.status == 'Pending'}{assign var='color1' value='#FFAA00'}
     {elseif $srv.status == 'Active'}{assign var='color1' value='#669933'}
+    {if $gt.status == 'Pending'}{assign var='color1' value='#FFAA00'}
+    {elseif $gt.status == 'Active'}{assign var='color1' value='#669933'}
     {else}{assign var='color1' value='#DD0000'}{/if}
     <td><font color="{$color1}"><b>{$srv.status}</b></font></td>
     <td><a href="serversummary.php?id={$srv.serverid}"><img src="templates/{$template}/images/edit24.png" width="24" height="24" border="0" alt="Edit" /></a></td>
