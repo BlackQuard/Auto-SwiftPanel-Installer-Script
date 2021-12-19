@@ -1,6 +1,6 @@
 <table width="100%" border="0" cellpadding="0" cellspacing="0" class="title">
   <tr>
-    <td align="left"><h1>Login</h1></td>
+    <td align="left"><h1>Login System</h1></td>
   </tr>
 </table>
 {if $lockout}
