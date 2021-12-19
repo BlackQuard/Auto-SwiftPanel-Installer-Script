@@ -64,5 +64,15 @@
         </tr>
       </table></td>
     <td>Suspended</td>
+    </tr>
+      </table></td>
+    <td>GT Active</td>
+    <td width="5"></td>
+    <td width="12" align="right"><table style="width:12px;height:12px;" cellspacing="1" class="data">
+        <tr class="GTSuspended">
+          <td></td>
+        </tr>
+      </table></td>
+    <td>GT Active</td>
   </tr>
 </table>
